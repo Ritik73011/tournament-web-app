@@ -38,7 +38,7 @@ const Navbar = () => {
   };
 
   return (
-    <AppBar sx={{background:"#030303"}} position="static">
+    <AppBar sx={{background:"#030303"}} position="fixed">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
